@@ -6,7 +6,17 @@
         {
             "label": "build and run",
             "type": "shell",
-            "command": "g++ -g Helpers/merge_sort.cpp && ./a.out",
+            "command": "g++ -g -std=c++17 Helpers/maximum_subarray.cpp && ./a.out",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++ -g -std=c++17 Helpers/maximum_subarray.cpp",
             "group": {
                 "kind": "build",
                 "isDefault": true

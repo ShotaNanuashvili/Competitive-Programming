@@ -2,7 +2,7 @@
     Topics:
         Sorting, Divide and conquer.
     Time Complexity:
-        
+        O(nlogn)
 */
 
 #include <iostream>
